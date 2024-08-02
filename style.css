@@ -1,0 +1,119 @@
+/* Основные стили для всего сайта */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Бежевый фон */
+    padding-bottom: 60px; /* Отступ снизу для футера */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(to right, #d4a373, #c9a07b); /* Градиент фона */
+    color: #fff;
+    text-align: center;
+    padding: 2em 0; /* Увеличение отступов для улучшения визуального восприятия */
+    border-bottom: none; /* Удаление нижней границы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для выделения */
+    position: relative; /* Относительное позиционирование для возможного использования псевдоэлементов */
+}
+
+.course-title {
+    
+    padding: 15px;
+    margin-bottom:5px;
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+
+}
+
+.course-title h1 {
+    margin: 0;
+    font-size: 40px; /* Большой шрифт для названия курса */
+}
+
+header h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    color: #fff;
+    margin: 0;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #d4a373; /* Бежевый акцент под заголовками */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-family: 'Merriweather', serif;
+}
+
+ul, ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0b5ad0;
+    text-decoration: underline;
+}
+
+footer {
+    background: linear-gradient(to right, #d4a373, #c9a07b); /* Градиент фона */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: none; /* Удаление верхней границы футера */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для футера */
+}
+
+footer p {
+    margin: 10px 0; /* Отступы для элементов футера */
+    font-size: 16px; /* Размер шрифта для удобства чтения */
+}
+
+footer i {
+    margin-right: 8px; /* Отступ справа для иконок */
+    font-size: 18px; /* Размер иконок */
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

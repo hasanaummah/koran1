@@ -35,7 +35,7 @@ header {
 
 .course-title h1 {
     margin: 0;
-    font-size: 40px; /* Большой шрифт для названия курса */
+    font-size: 30px; /* Большой шрифт для названия курса */
 }
 
 header h2 {
